@@ -1,0 +1,12 @@
+logging:
+  config: classpath:config/logback.xml
+spring:
+  application:
+    name: registry-center
+server:
+  port: 9070
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false

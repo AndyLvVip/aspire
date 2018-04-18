@@ -1,0 +1,4 @@
+rootProject.name = 'aspire'
+include 'common'
+include 'registry-center'
+
