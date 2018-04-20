@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":registry-center:test" external.linked.project.path="$MODULE_DIR$/../../../registry-center" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="aspire" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+<module version="4">
+  <component name="ExternalSystem" externalSystem="GRADLE" externalSystemModuleGroup="aspire" externalSystemModuleType="sourceSet" externalSystemModuleVersion="1.0-SNAPSHOT" linkedProjectId=":registry-center:test" linkedProjectPath="$MODULE_DIR$/../../../registry-center" rootProjectPath="$MODULE_DIR$/../../.." />
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
       <configuration />
@@ -18,7 +19,6 @@
       <sourceFolder url="file://$MODULE_DIR$/../../../registry-center/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../registry-center/src/test/resources" type="java-test-resource" />
     </content>
-    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="registry-center_main" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:2.0.0.M8" level="project" />

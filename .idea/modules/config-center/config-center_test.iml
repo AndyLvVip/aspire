@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":config-center:test" external.linked.project.path="$MODULE_DIR$/../../../config-center" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="aspire" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+<module version="4">
+  <component name="ExternalSystem" externalSystem="GRADLE" externalSystemModuleGroup="aspire" externalSystemModuleType="sourceSet" externalSystemModuleVersion="1.0-SNAPSHOT" linkedProjectId=":config-center:test" linkedProjectPath="$MODULE_DIR$/../../../config-center" rootProjectPath="$MODULE_DIR$/../../.." />
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
       <configuration />
@@ -7,14 +8,17 @@
     <facet type="web" name="Web">
       <configuration>
         <webroots />
+        <sourceRoots />
       </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output-test url="file://$MODULE_DIR$/../../../config-center/out/test/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../config-center/src/test" />
-    <orderEntry type="inheritedJdk" />
+    <content url="file://$MODULE_DIR$/../../../config-center/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../config-center/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../config-center/src/test/resources" type="java-test-resource" />
+    </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="config-center_main" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-config-server:2.0.0.M9" level="project" />

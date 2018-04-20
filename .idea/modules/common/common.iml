@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="ExternalSystem" externalSystem="GRADLE" externalSystemModuleGroup="aspire" externalSystemModuleVersion="1.0-SNAPSHOT" linkedProjectId=":common" linkedProjectPath="$MODULE_DIR$/../../../common" rootProjectPath="$MODULE_DIR$/../../.." />
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../common">
+      <excludeFolder url="file://$MODULE_DIR$/../../../common/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../common/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../common/out" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

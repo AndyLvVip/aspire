@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aspire.iml" filepath="$PROJECT_DIR$/.idea/modules/aspire.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ basis-portal.iml" filepath="$PROJECT_DIR$/.idea/modules/ basis-portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ basis-portal/_basis-portal.iml" filepath="$PROJECT_DIR$/.idea/modules/ basis-portal/_basis-portal.iml" group=" basis-portal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ basis-portal/_basis-portal_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ basis-portal/_basis-portal_main.iml" group=" basis-portal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ basis-portal/_basis-portal_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ basis-portal/_basis-portal_test.iml" group=" basis-portal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/aspire.iml" filepath="$PROJECT_DIR$/.idea/aspire.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/aspire_main.iml" filepath="$PROJECT_DIR$/.idea/modules/aspire_main.iml" group="aspire" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/aspire_test.iml" filepath="$PROJECT_DIR$/.idea/modules/aspire_test.iml" group="aspire" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common.iml" filepath="$PROJECT_DIR$/.idea/modules/common.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common.iml" group="common" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common_main.iml" group="common" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common_test.iml" group="common" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-center/config-center.iml" filepath="$PROJECT_DIR$/.idea/modules/config-center/config-center.iml" group="config-center" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-center.iml" filepath="$PROJECT_DIR$/.idea/modules/config-center.iml" group="config-center" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-center/config-center_main.iml" filepath="$PROJECT_DIR$/.idea/modules/config-center/config-center_main.iml" group="config-center" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-center/config-center_test.iml" filepath="$PROJECT_DIR$/.idea/modules/config-center/config-center_test.iml" group="config-center" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/registry-center/registry-center.iml" filepath="$PROJECT_DIR$/.idea/modules/registry-center/registry-center.iml" group="registry-center" />

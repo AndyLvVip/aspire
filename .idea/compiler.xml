@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="_basis-portal_main" target="1.8" />
+      <module name="_basis-portal_test" target="1.8" />
       <module name="aspire_main" target="1.8" />
       <module name="aspire_test" target="1.8" />
       <module name="common_main" target="1.8" />

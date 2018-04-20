@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":registry-center" external.linked.project.path="$MODULE_DIR$/../../../registry-center" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="aspire" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
-  <component name="FacetManager">
-    <facet type="Spring" name="Spring">
-      <configuration />
-    </facet>
-    <facet type="web" name="Web">
-      <configuration>
-        <webroots />
-        <sourceRoots>
-          <root url="file://$MODULE_DIR$/../../../registry-center/src/main/resources" />
-          <root url="file://$MODULE_DIR$/../../../registry-center/src/main/java" />
-        </sourceRoots>
-      </configuration>
-    </facet>
-  </component>
+<module version="4">
+  <component name="ExternalSystem" externalSystem="GRADLE" externalSystemModuleGroup="aspire" externalSystemModuleVersion="1.0-SNAPSHOT" linkedProjectId=":registry-center" linkedProjectPath="$MODULE_DIR$/../../../registry-center" rootProjectPath="$MODULE_DIR$/../../.." />
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../registry-center">
@@ -21,7 +8,6 @@
       <excludeFolder url="file://$MODULE_DIR$/../../../registry-center/build" />
       <excludeFolder url="file://$MODULE_DIR$/../../../registry-center/out" />
     </content>
-    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
