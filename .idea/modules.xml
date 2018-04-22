@@ -9,6 +9,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/aspire.iml" filepath="$PROJECT_DIR$/.idea/aspire.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/aspire_main.iml" filepath="$PROJECT_DIR$/.idea/modules/aspire_main.iml" group="aspire" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/aspire_test.iml" filepath="$PROJECT_DIR$/.idea/modules/aspire_test.iml" group="aspire" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/basis-common.iml" filepath="$PROJECT_DIR$/.idea/modules/basis-common.iml" group="basis-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/basis-common/basis-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/basis-common/basis-common_main.iml" group="basis-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/basis-common/basis-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/basis-common/basis-common_test.iml" group="basis-common" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common.iml" group="common" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common_main.iml" group="common" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common_test.iml" group="common" />

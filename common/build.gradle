@@ -1,14 +1,48 @@
-group 'aspire'
-version '1.0-SNAPSHOT'
+buildscript {
+    ext {
+        springBootVersion = '2.0.1.RELEASE'
+        jooqVersion = '3.10.4'
+        springVersion = '5.0.3.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
 
 apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
 
 sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 repositories {
     mavenCentral()
 }
 
-dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+repositories {
+    maven {
+        url 'https://repo.spring.io/libs-milestone'
+    }
 }
+
+dependencies {
+    compile('org.springframework.boot:spring-boot-starter-web')
+    compile("org.jooq:jooq:${jooqVersion}")
+    compile('mysql:mysql-connector-java:5.1.39')
+    compile("org.jooq:jooq-meta:${jooqVersion}")
+    compile("org.jooq:jooq-codegen:${jooqVersion}")
+    compile("org.springframework:spring-aspects:${springVersion}")
+    compile("org.springframework:spring-jdbc:${springVersion}")
+    compile('org.apache.commons:commons-lang3:3.4')
+
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+}
+
+group 'aspire'
+version '1.0-SNAPSHOT'

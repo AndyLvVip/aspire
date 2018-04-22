@@ -5,3 +5,10 @@ management:
         include: "*"
 server:
   port: 9010
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:9999/eureka}
+    instance:
+      preferIpAddress: true

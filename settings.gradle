@@ -3,4 +3,5 @@ include 'common'
 include 'registry-center'
 include 'config-center'
 include ' basis-portal'
+include 'basis-common'
 

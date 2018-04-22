@@ -6,6 +6,8 @@
       <module name="_basis-portal_test" target="1.8" />
       <module name="aspire_main" target="1.8" />
       <module name="aspire_test" target="1.8" />
+      <module name="basis-common_main" target="1.8" />
+      <module name="basis-common_test" target="1.8" />
       <module name="common_main" target="1.8" />
       <module name="common_test" target="1.8" />
       <module name="config-center_main" target="1.8" />

@@ -1,2 +1,18 @@
 aspire:
   env: "default env"
+jdbc:
+  driverClassName: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/aspire_basis?useUnicode=true&characterEncoding=utf-8
+  username: andy
+  password: password
+  maxActive: 20
+  initialSize: 1
+  maxWait: 60000
+  minIdle: 10
+  maxIdle: 15
+  timeBetweenEvictionRunsMillis: 60000
+  minEvictableIdleTimeMillis: 300000
+  testWhileIdle: true
+  testOnBorrow: false
+  testOnReturn: false
+  maxOpenPreparedStatements: 20
